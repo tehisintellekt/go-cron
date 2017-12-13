@@ -23,3 +23,6 @@ _testmain.go
 *.test
 
 dist
+
+# IntelliJ IDEA project specific settings
+.idea

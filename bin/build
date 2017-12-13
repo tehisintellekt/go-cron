@@ -1,6 +1,5 @@
 #!/bin/bash
 
-
 go get
 
 rm -rf dist
@@ -10,4 +9,4 @@ cd ./dist
 
 go build -o go-cron ../go-cron.go
 
-tar -cf go-cron.tar.gz go-cron
+tar -czf go-cron.tar.gz go-cron
