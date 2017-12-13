@@ -9,4 +9,4 @@ cd ./dist
 
 go build -o go-cron ../go-cron.go
 
-tar -czf go-cron.tar.gz go-cron
+gzip go-cron
